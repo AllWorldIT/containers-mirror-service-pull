@@ -5,7 +5,7 @@ LABEL maintainer="Nigel Kukard <nkukard@lbsd.net>"
 
 RUN set -ex; \
 	true "Rsync"; \
-	apk add --no-cache rsync; \
+	apk add --no-cache rsync curl; \
 	true "Versioning"; \
 	if [ -n "$VERSION_INFO" ]; then echo "$VERSION_INFO" >> /.VERSION_INFO; fi; \
 	true "Cleanup"; \
