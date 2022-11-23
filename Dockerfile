@@ -19,3 +19,5 @@ RUN set -ex; \
 	true "Setup data directory"; \
 	mkdir -p /data
 
+VOLUME ["/data"]
+

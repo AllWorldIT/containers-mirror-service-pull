@@ -5,9 +5,19 @@ This is the AllWorldIT Mirror Pull image, used for pulling mirrors into our loca
 Check the [Alpine Base Image](https://gitlab.iitsp.com/allworldit/docker/alpine/README.md) for more settings.
 
 
+
 # Environment
 
 No options available.
+
+
+
+# Volumes
+
+## Volume: /data
+
+Data directory.
+
 
 
 # Setup
