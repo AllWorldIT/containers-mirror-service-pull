@@ -1,2 +1,2 @@
-# min   hour    day     month   weekday command
-*/1     *       *       *       *       /home/pull/rsync-pull
+# min   hour    day     month   weekday   user    command
+*/1     *       *       *       *         pull    /home/pull/rsync-pull
